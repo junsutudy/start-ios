@@ -1,6 +1,6 @@
 //
-//  start_iosApp.swift
-//  start-ios
+//  StartApp.swift
+//  Start
 //
 //  Created by Junsu Park on 11/18/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct start_iosApp: App {
+struct StartApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
