@@ -1,13 +1,13 @@
 //
-//  StartUITestsLaunchTests.swift
-//  StartUITests
+//  start_iosUITestsLaunchTests.swift
+//  start-iosUITests
 //
 //  Created by Junsu Park on 11/18/24.
 //
 
 import XCTest
 
-final class StartUITestsLaunchTests: XCTestCase {
+final class start_iosUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

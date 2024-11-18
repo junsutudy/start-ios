@@ -1,13 +1,13 @@
 //
-//  StartUITests.swift
-//  StartUITests
+//  start_iosUITests.swift
+//  start-iosUITests
 //
 //  Created by Junsu Park on 11/18/24.
 //
 
 import XCTest
 
-final class StartUITests: XCTestCase {
+final class start_iosUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
