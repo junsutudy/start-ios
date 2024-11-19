@@ -9,22 +9,31 @@ import SwiftUICore
 import SwiftUI
 
 struct ContentView : View{
+    @State private var count = 0
     var body: some View {
-    
-            VStack{
+        VStack{
+            HStack{
                 Image(systemName: "figure.archery")
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
-                Text("Hello, World!")
+                    .padding([.trailing], 5)
+                
+                Text("Hello, Some world!")
+                    .foregroundStyle(.gray)
             }
-            .padding()
+            Text("Count: \(count)")
+            Button("Increment") {
+                count += 1
+            }
+        }
+        .padding()
     }
 }
 
 struct ContentView_Previews:
     PreviewProvider {
-        static var previews: some View
-        {
-            ContentView()
-        }
+    static var previews: some View
+    {
+        ContentView()
+    }
 }
