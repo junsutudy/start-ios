@@ -17,11 +17,14 @@ struct ContentView : View{
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
                     .padding([.trailing], 5)
-                
                 Text("Hello, Some world!")
-                    .foregroundStyle(.gray)
+                    .foregroundStyle(.blue)
             }
+            .padding([.bottom])
             Text("Count: \(count)")
+                .font(.title)
+                .padding([.bottom])
+            
             Button("Increment") {
                 count += 1
             }
